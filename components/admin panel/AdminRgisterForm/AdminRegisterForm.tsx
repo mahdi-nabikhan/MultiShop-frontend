@@ -31,7 +31,7 @@ export default function AdminRegisterForm() {
 
     try {
       await axios.post(
-        `${BACKEND_URLS}vendor/api/v1/operator/register/`,
+        `${BACKEND_URLS}vendor/api/v1/admin/register/`,
         {
           username,
           user: {
